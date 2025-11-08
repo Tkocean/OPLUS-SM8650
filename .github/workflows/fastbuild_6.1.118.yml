@@ -11,7 +11,7 @@ on:
     inputs:
       ksu_type:
         description: 'KernelSU分支(SukiSU Ultra/KernelSU Next,默认SukiSU Ultra)'
-        required: true
+        required: false
         type: choice
         default: 'sukisu'
         options:
